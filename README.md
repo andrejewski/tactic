@@ -13,7 +13,7 @@ Tactic includes these Promise abstractions/helpers:
 
 - Defer
 - Cancel, a defer with a `cancel()` method
-- Timeout, a defer using `setTimeout()`
+- Timeout, a promise using `setTimeout()`
 - Domain
 
 Domain is one I made up, but it captures an ad-hoc pattern I see very frequently.

@@ -1,12 +1,9 @@
-const Defer = require('./defer')
-
-class Timeout extends Defer {
-  constructor (milliseconds, message) {
-    super()
-    this.timeout = setTimeout(() => {
-      this.reject(new TimeoutError(message))
+function Timeout (milliseconds, message) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      reject(new TimeoutError(message))
     }, milliseconds)
-  }
+  })
 }
 
 class TimeoutError extends Error {
