@@ -1,4 +1,6 @@
 # Tactic
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/andrejewski/tactic.svg)](https://greenkeeper.io/)
 Promise utilities for just the worst people
 
 Tactic is a library of Promise primitives we have written ourselves plenty of times, but this is the last time we reinvent the wheel.
